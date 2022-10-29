@@ -1,0 +1,139 @@
+.h1-header {
+    font-family: 'DM Serif Text', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Franklin Gothic Small', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.nav-a {
+    
+    display:inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2px;
+}
+
+.nav-b {
+    
+    display:inline-block;
+    padding: 15px 20px ;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  
+}
+
+
+.line {
+    border-bottom: 5px solid #4c555c;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lineAbout {
+    border-bottom: 5px solid #4c555c;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,7,7,1) 92%, rgba(30,87,98,1) 100%);
+border-radius: 5px;
+}
+
+.white-txt {
+    color: white;
+}
+
+.mainContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textAlign {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.firstPage-p {
+    width: 400px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-size-h {
+    font-size: 90px;
+}
+
+.imageBorder {
+    border-radius: 10px;
+
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+
